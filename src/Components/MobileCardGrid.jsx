@@ -44,7 +44,7 @@ const MobileCardGrid = () => {
         FrontComponent={FirstCardFront} 
       />
       <Card 
-        flipOnHover={false} 
+        flipOnHover={true} 
         FrontComponent={() => <div>Front</div>} 
       />
       <Card 

@@ -143,13 +143,24 @@
     .card-grid {
         grid-template-columns: 1fr; /* 1 card per row */
       }
+      .last-card>.card-inner>.card-front,.first-card>.card-inner>.card-front{
+        height: 240px !important;
+      }
+      .last-card>.card-inner>.card-back,.first-card>.card-inner>.card-back{
+        display: none !important;
+      }
       .card.first-card::before{
         height: 240px !important;
-        left: -88px !important;
+        width: 97.5vw !important;
+        /* left: -88px !important; */
+        right: 0px !important;
+        left: 0px !important;
       }
       .card.last-card::before{
         height: 240px !important;
-        right: -88px !important;
+        width: 97.5vw !important;
+        /* right: -88px !important; */
+        right: 0px !important;
       }
       .card {
         width: 100%; /* Full width for each card on mobile */

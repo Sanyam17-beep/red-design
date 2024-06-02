@@ -7,7 +7,7 @@
     position: fixed;
     height: 100%;
     z-index: 999;
-    translate:0px -1000px;
+    translate:0px -120vh;
     transition: all 1s;
 }
 .main-form-wrapper{

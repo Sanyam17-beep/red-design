@@ -1,4 +1,4 @@
-.about-image-container{
+/* .about-image-container{
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -86,4 +86,40 @@
 
 #bottom-left-image{
     width: 60%;
+} */
+.a-text{
+    text-align: justify;
+}
+.para-wrapper{
+    vertical-align: middle;
+    word-break: normal;
+}
+.About-page-section{
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: aqua; */
+    display: flex;
+    gap: 20px;
+    
+}
+.About-page-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.About-page-section-data{
+    height: 100%;
+    width: 60%;
+    /* background-color: red; */
+}
+.About-page-section-image{
+    /* height:500px; */
+    width: 40%;
+    border: 30px solid black;
+    background-color: rgb(208, 255, 0);
+}
+.bot{
+    height: 300px;
+    /* border: 30px solid black; */
 }
