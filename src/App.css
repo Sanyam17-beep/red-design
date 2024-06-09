@@ -99,3 +99,18 @@ flex-direction: column-reverse;
     gap: 20px !important;
   }
 }
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* Your CSS rules go here */
+  .card-grid{
+    grid-template-columns: repeat(3, 320px) !important;
+  }
+  .card.first-card::before{
+    width: 420px !important;
+  }
+  .card.last-card::before{
+    width: 420px !important;
+  }
+  .card{
+    width: 320px !important;
+  }
+}

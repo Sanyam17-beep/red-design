@@ -348,3 +348,10 @@ left: 100px;
 .seven,.plus,.year{
     position: absolute;
 }
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* Your CSS rules go here */
+  .stat-box{
+    width: 320px !important;
+  }
+
+}
