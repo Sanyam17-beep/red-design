@@ -351,7 +351,9 @@ left: 100px;
 @media (min-width: 768px) and (max-width: 1200px) {
   /* Your CSS rules go here */
   .stat-box{
-    width: 320px !important;
+    width: 210px !important;
   }
-
+  .stat-header{
+    padding-right: 0px !important;
+  }
 }
