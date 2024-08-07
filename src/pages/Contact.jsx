@@ -110,7 +110,7 @@ const Contact = () => {
                                     <input type='text' placeholder='Your phone no (*)' required/>
                                 </div>
                                 <div className="select-wrapper" style={{textAlign:"center"}}>
-                                    <select style={{width:"85%",padding:"10px"}}>
+                                    <select style={{padding:"10px"}}>
                                         <option selected>Business Department</option>
                                         <option>Personal Department</option>
                                         <option>Support Department</option>
