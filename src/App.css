@@ -63,6 +63,12 @@ flex-direction: column;
     /* bottom: -42%; */
     /* display:none; */
   /* } */
+  .mini-icon-wrapper {
+    padding: 2px !important;
+  }
+  .stat-box{
+    width: 300px !important;
+  }
   .to{
 flex-direction: column-reverse;
   }
@@ -103,6 +109,9 @@ flex-direction: column-reverse;
   /* Your CSS rules go here */
   .card-grid{
     grid-template-columns: repeat(3, 320px) !important;
+  }
+  .About-section{
+    margin-left: 30px !important;
   }
   .card.first-card::before{
     width: 420px !important;
