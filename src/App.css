@@ -63,6 +63,9 @@ flex-direction: column;
     /* bottom: -42%; */
     /* display:none; */
   /* } */
+  .stat-container{
+    width: auto !important;
+  }
   .mini-icon-wrapper {
     padding: 2px !important;
   }
